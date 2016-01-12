@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">hpes</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_next">Next</string>
+    <string name="title_activity_main_menu">MainMenu</string>
+    <string name="title_activity_calculator">Calculator</string>
+    <string name="title_activity_service_demo">ServiceDemo</string>
+    <string name="title_activity_music_player">MusicPlayer</string>
+    <string name="title_activity_check_box_demo">CheckBoxDemo</string>
+    <string name="title_activity_seeek_bar_demo">SeeekBarDemo</string>
+    <string name="title_activity_dictionary">Dictionary</string>
+    <string name="title_activity_linear_demo">LinearDemo</string>
+    <string name="title_activity_table_demo">TableDemo</string>
+    <string name="title_activity_frame_demo">FrameDemo</string>
+    <string name="title_activity_drawer_demo">DrawerDemo</string>
+    <string name="title_section1">Music Time</string>
+    <string name="title_section2">Calculator</string>
+    <string name="title_section3">Game</string>
+    <string name="title_section4">Dictionary</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="action_example">Example action</string>
+    <string name="title_activity_paytm_new">PaytmNew</string>
+    <string name="title_activity_game">Game</string>
+    <string name="title_activity_score">Score</string>
+    <string name="title_activity_tab_demo">TabDemo</string>
+    <string name="title_activity_android_calculator">AndroidCalculator</string>
+    <string name="title_activity_remote_data">RemoteData</string>
+    <string name="title_activity_my_broadcast">MyBroadcast</string>
+    <string name="title_activity_menu_demo">MenuDemo</string>
+    <string name="title_activity_btdemo">BTDemo</string>
+    <string name="title_activity_wifi_demo">WifiDemo</string>
+    <string name="title_activity_camera_demo">CameraDemo</string>
+    <string name="title_activity_sensor_demo">SensorDemo</string>
+    <string name="title_activity_exam">Exam</string>
+    <string name="title_activity_welcome_home">WelcomeHome</string>
+
+</resources>

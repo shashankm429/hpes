@@ -1,0 +1,157 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.hpes"
+    android:versionCode="1"
+    android:versionName="1.0" >
+
+    <uses-sdk
+        android:minSdkVersion="16"
+        android:targetSdkVersion="16" />
+
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="android.permission.BLUETOOTH_ADMIN" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <service android:name=".MyService" />
+
+        <receiver android:name=".BatteryReceiver" >
+            <intent-filter>
+                <action android:name="motorola.battery.BATTERY_BROADCAST" />
+            </intent-filter>
+        </receiver>
+        <receiver android:name=".MyPhoneReceiver" >
+            <intent-filter>
+                <action android:name="android.intent.action.PHONE_STATE" />
+            </intent-filter>
+        </receiver>
+
+        <activity android:name=".SettingScreen" />
+        <activity android:name=".WidgetMenu" />
+        <activity android:name=".LayoutMenu" />
+        <activity android:name=".FinalMenu" />
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name" >
+        </activity>
+        <activity
+            android:name=".Next"
+            android:label="@string/title_activity_next" >
+        </activity>
+        <activity
+            android:name=".MainMenu"
+            android:label="@string/title_activity_main_menu" >
+            <intent-filter>
+                <action android:name="com.example.hpes.MAINMENU" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Calculator"
+            android:label="@string/title_activity_calculator" >
+        </activity>
+        <activity
+            android:name=".ServiceDemo"
+            android:label="@string/title_activity_service_demo" >
+        </activity>
+        <activity
+            android:name=".MusicPlayer"
+            android:label="@string/title_activity_music_player" >
+        </activity>
+        <activity
+            android:name=".CheckBoxDemo"
+            android:label="@string/title_activity_check_box_demo" >
+        </activity>
+        <activity
+            android:name=".SeeekBarDemo"
+            android:label="@string/title_activity_seeek_bar_demo" >
+        </activity>
+        <activity
+            android:name=".Dictionary"
+            android:label="@string/title_activity_dictionary" >
+        </activity>
+        <activity
+            android:name=".LinearDemo"
+            android:label="@string/title_activity_linear_demo" >
+        </activity>
+        <activity
+            android:name=".TableDemo"
+            android:label="@string/title_activity_table_demo" >
+        </activity>
+        <activity
+            android:name=".FrameDemo"
+            android:label="@string/title_activity_frame_demo" >
+        </activity>
+        <activity
+            android:name=".DrawerDemo"
+            android:label="@string/title_activity_drawer_demo" >
+        </activity>
+        <activity
+            android:name=".Game"
+            android:label="@string/title_activity_game" >
+        </activity>
+        <activity
+            android:name=".Score"
+            android:label="@string/title_activity_score" >
+        </activity>
+        <activity
+            android:name=".TabDemo"
+            android:label="@string/title_activity_tab_demo" >
+        </activity>
+        <activity
+            android:name=".AndroidCalculator"
+            android:label="@string/title_activity_android_calculator" >
+        </activity>
+        <activity
+            android:name=".RemoteData"
+            android:label="@string/title_activity_remote_data" >
+        </activity>
+        <activity
+            android:name=".MyBroadcast"
+            android:label="@string/title_activity_my_broadcast" >
+        </activity>
+        <activity
+            android:name=".MenuDemo"
+            android:label="@string/title_activity_menu_demo" >
+        </activity>
+        <activity
+            android:name=".BTDemo"
+            android:label="@string/title_activity_btdemo" >
+        </activity>
+        <activity
+            android:name=".WifiDemo"
+            android:label="@string/title_activity_wifi_demo" >
+        </activity>
+        <activity
+            android:name=".CameraDemo"
+            android:label="@string/title_activity_camera_demo" >
+        </activity>
+        <activity
+            android:name=".SensorDemo"
+            android:label="@string/title_activity_sensor_demo" >
+        </activity>
+        <activity
+            android:name=".Exam"
+            android:label="@string/title_activity_exam" >
+        </activity>
+        <activity
+            android:name=".WelcomeHome"
+            android:label="@string/title_activity_welcome_home" >
+             <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

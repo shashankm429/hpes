@@ -1,0 +1,24 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context="com.example.hpes.MenuDemo" >
+
+    <item
+        android:id="@+id/omi1"
+      android:showAsAction="always"
+      android:icon="@android:drawable/ic_menu_camera"
+        android:title="Camera"/>
+<item
+        android:id="@+id/omi2"
+      android:showAsAction="ifRoom"
+      android:icon="@android:drawable/stat_sys_data_bluetooth"
+        android:title="Bluetooth"/>
+    <item
+        android:id="@+id/omi3"
+      
+        android:title="Settings"/>
+<item
+        android:id="@+id/omi4"
+      
+        android:title="Exit"/>
+    
+</menu>

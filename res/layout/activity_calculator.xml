@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="com.example.hpes.Calculator" >
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="54dp"
+        android:layout_marginTop="37dp"
+        android:text="ANDROID CALCULATOR" />
+
+    <EditText
+        android:id="@+id/calc_et1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_below="@+id/textView1"
+        android:layout_marginTop="37dp"
+        android:inputType="phone"
+        android:hint="Enter 1st no."
+        android:ems="10" >
+
+        <requestFocus />
+    </EditText>
+
+    <EditText
+        android:id="@+id/calc_et2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calc_et1"
+        android:layout_below="@+id/calc_et1"
+        android:layout_marginTop="37dp"
+        android:inputType="phone"
+        android:hint="Enter 2nd no."
+        android:ems="10" />
+
+    <EditText
+        android:id="@+id/calc_et3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@+id/calc_et2"
+        android:layout_below="@+id/calc_et2"
+        android:layout_marginTop="38dp"
+        android:inputType="phone"
+        android:editable="false"
+        android:hint="Result"
+        android:ems="10" />
+
+    <Button
+        android:id="@+id/calc_b1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calc_et3"
+        android:layout_below="@+id/calc_et3"
+        android:layout_marginTop="43dp"
+        android:text="ADD" />
+
+    <Button
+        android:id="@+id/calc_b2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBaseline="@+id/calc_b1"
+        android:layout_alignBottom="@+id/calc_b1"
+        android:layout_marginLeft="23dp"
+        android:layout_toRightOf="@+id/calc_b1"
+        android:text="SUBTRACT" />
+
+    <Button
+        android:id="@+id/calc_b3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignLeft="@+id/calc_b1"
+        android:layout_alignParentBottom="true"
+        android:text="MULTIPLY" />
+
+    <Button
+        android:id="@+id/calc_b4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/calc_b3"
+        android:layout_alignRight="@+id/textView1"
+        android:text="DIVIDE" />
+
+</RelativeLayout>

@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android" >
+<EditTextPreference android:key="welcome_text"
+    				android:title="Welcome Text" 
+    				android:summary="Click to set welcome text for user"   
+					/>
+<CheckBoxPreference android:key="welcome_switch"
+    				android:title="Welcome Message"
+    				android:summaryOn="Welcome Message is ON"
+    				android:summaryOff="Welcome Message is OFF" />
+
+<CheckBoxPreference android:key="sms_delivery"
+    				android:title="Delivery Report"
+    				android:summaryOn="Delivery Report ON"
+    				android:summaryOff="Delivery Report OFF" />
+
+</PreferenceScreen>
